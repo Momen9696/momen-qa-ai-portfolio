@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Playwright UI architecture</title>
+  <desc id="desc">Pytest fixtures drive page objects and an API client. Browsers and the client talk to the local HarborDesk application.</desc>
+  <rect width="960" height="420" fill="#f4f1ea"/>
+  <g font-family="ui-sans-serif, sans-serif" font-size="15" fill="#101820">
+    <rect x="40" y="40" width="250" height="58" rx="10" fill="#101820"/>
+    <text x="165" y="75" text-anchor="middle" fill="#f4f1ea">Pytest CLI and fixtures</text>
+    <rect x="40" y="150" width="250" height="58" rx="10" fill="#fff" stroke="#101820"/>
+    <text x="165" y="185" text-anchor="middle">Page objects</text>
+    <rect x="40" y="260" width="250" height="58" rx="10" fill="#fff" stroke="#101820"/>
+    <text x="165" y="295" text-anchor="middle">API client</text>
+    <rect x="380" y="150" width="220" height="58" rx="10" fill="#0f766e"/>
+    <text x="490" y="185" text-anchor="middle" fill="#fff">Playwright</text>
+    <rect x="680" y="110" width="240" height="150" rx="10" fill="#a16207"/>
+    <text x="800" y="178" text-anchor="middle" fill="#fff">HarborDesk</text>
+    <text x="800" y="202" text-anchor="middle" fill="#fff">local FastAPI app</text>
+  </g>
+  <g stroke="#101820" stroke-width="1.6" fill="none">
+    <path d="M165 98 V150"/>
+    <path d="M165 208 V260"/>
+    <path d="M290 179 H380"/>
+    <path d="M600 179 H680"/>
+    <path d="M290 289 H800 V260"/>
+  </g>
+</svg>

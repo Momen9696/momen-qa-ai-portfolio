@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">API automation architecture</title>
+  <desc id="desc">Robot suites and Pytest call a Python core. The core uses RequestsLibrary. A local FastAPI ledger is the system under test. GitHub Actions runs both layers.</desc>
+  <rect width="960" height="420" fill="#f4f1ea"/>
+  <g font-family="ui-sans-serif, sans-serif" font-size="15" fill="#101820">
+    <rect x="40" y="48" width="200" height="64" rx="10" fill="#101820"/>
+    <text x="140" y="86" text-anchor="middle" fill="#f4f1ea">Robot suites</text>
+    <rect x="40" y="168" width="200" height="64" rx="10" fill="#fff" stroke="#101820"/>
+    <text x="140" y="206" text-anchor="middle">Pytest</text>
+    <rect x="320" y="108" width="220" height="64" rx="10" fill="#0f766e"/>
+    <text x="430" y="146" text-anchor="middle" fill="#fff">Python core</text>
+    <rect x="620" y="48" width="280" height="64" rx="10" fill="#fff" stroke="#101820"/>
+    <text x="760" y="86" text-anchor="middle">RequestsLibrary session</text>
+    <rect x="620" y="168" width="280" height="64" rx="10" fill="#a16207"/>
+    <text x="760" y="206" text-anchor="middle" fill="#fff">FastAPI demo ledger</text>
+    <rect x="320" y="300" width="220" height="64" rx="10" fill="#fff" stroke="#101820"/>
+    <text x="430" y="338" text-anchor="middle">Excel, JSON, schemas</text>
+    <rect x="40" y="300" width="200" height="64" rx="10" fill="#fff" stroke="#101820"/>
+    <text x="140" y="338" text-anchor="middle">GitHub Actions</text>
+  </g>
+  <g stroke="#101820" stroke-width="1.6" fill="none">
+    <path d="M240 80 H320"/>
+    <path d="M240 200 H320"/>
+    <path d="M540 140 H620"/>
+    <path d="M760 112 V168"/>
+    <path d="M430 172 V300"/>
+    <path d="M240 332 H320"/>
+  </g>
+</svg>

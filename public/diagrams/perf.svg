@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" role="img" aria-labelledby="title desc">
+  <title id="title">Performance framework architecture</title>
+  <desc id="desc">A YAML profile enters the control plane. An allowlist guard starts Locust as an argument vector against the demo API or an approved host. Samples become metrics, SQLite rows, and reports.</desc>
+  <rect width="960" height="400" fill="#f4f1ea"/>
+  <g font-family="ui-sans-serif, sans-serif" font-size="15" fill="#101820">
+    <rect x="36" y="40" width="200" height="56" rx="10" fill="#fff" stroke="#101820"/>
+    <text x="136" y="74" text-anchor="middle">YAML profile</text>
+    <rect x="280" y="40" width="220" height="56" rx="10" fill="#101820"/>
+    <text x="390" y="74" text-anchor="middle" fill="#f4f1ea">Control plane</text>
+    <rect x="540" y="40" width="380" height="56" rx="10" fill="#a16207"/>
+    <text x="730" y="74" text-anchor="middle" fill="#fff">Allowlist and resource caps</text>
+    <rect x="540" y="150" width="380" height="56" rx="10" fill="#0f766e"/>
+    <text x="730" y="184" text-anchor="middle" fill="#fff">Locust subprocess</text>
+    <rect x="36" y="150" width="280" height="56" rx="10" fill="#fff" stroke="#101820"/>
+    <text x="176" y="184" text-anchor="middle">Demo API or approved host</text>
+    <rect x="280" y="280" width="220" height="56" rx="10" fill="#fff" stroke="#101820"/>
+    <text x="390" y="314" text-anchor="middle">SQLite and HTML</text>
+  </g>
+  <g stroke="#101820" stroke-width="1.6" fill="none">
+    <path d="M236 68 H280"/>
+    <path d="M500 68 H540"/>
+    <path d="M730 96 V150"/>
+    <path d="M540 178 H316"/>
+    <path d="M730 206 V250 H390 V280"/>
+  </g>
+</svg>

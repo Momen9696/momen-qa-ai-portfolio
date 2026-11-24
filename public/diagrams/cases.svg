@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+  <title id="title">Test case generator architecture</title>
+  <desc id="desc">A React UI talks to FastAPI. The default provider is a deterministic rules engine. Optional model adapters stay behind environment keys. SQLite stores projects and cases.</desc>
+  <rect width="960" height="360" fill="#f4f1ea"/>
+  <g font-family="ui-sans-serif, sans-serif" font-size="15" fill="#101820">
+    <rect x="40" y="140" width="220" height="64" rx="10" fill="#101820"/>
+    <text x="150" y="178" text-anchor="middle" fill="#f4f1ea">React + Vite UI</text>
+    <rect x="340" y="140" width="240" height="64" rx="10" fill="#0f766e"/>
+    <text x="460" y="178" text-anchor="middle" fill="#fff">FastAPI</text>
+    <rect x="660" y="40" width="260" height="64" rx="10" fill="#a16207"/>
+    <text x="790" y="78" text-anchor="middle" fill="#fff">Rules engine (default)</text>
+    <rect x="660" y="140" width="260" height="64" rx="10" fill="#fff" stroke="#101820"/>
+    <text x="790" y="178" text-anchor="middle">Optional model adapters</text>
+    <rect x="660" y="240" width="260" height="64" rx="10" fill="#fff" stroke="#101820"/>
+    <text x="790" y="278" text-anchor="middle">SQLite</text>
+  </g>
+  <g stroke="#101820" stroke-width="1.6" fill="none">
+    <path d="M260 172 H340"/>
+    <path d="M580 172 H660"/>
+    <path d="M790 104 V140"/>
+    <path d="M790 204 V240"/>
+  </g>
+</svg>
